@@ -150,7 +150,7 @@ const ShopPage = () => {
               {/* Author Card */}
               <div className="bg-white rounded-md shadow-md p-4 mb-6">
                 <Image
-                  src="/blogauthor.jpg" 
+                  src="/blogauthor.png" 
                   alt="Author"
                   className="w-20 h-20 rounded-full mx-auto mb-3"
                   width={80}
