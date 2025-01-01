@@ -103,11 +103,11 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="bg-[#FF9F0D] px-4 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between max-w-full mx-auto">
-        <p className="text-sm text-gray-300 text-center md:text-left">
-          © 2024 by <a href="https://example.com" className="text-[#f3efe9]"> Wajahat Ali </a>. All Rights Reserved.
-        </p>
+     {/* Bottom Section */}
+<div className="bg-[#FF9F0D] px-4 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between max-w-full mx-auto">
+  <p className="text-sm text-gray-200 text-center md:text-left">
+    © 2024 by <a href="https://example.com" className="text-[#f3efe9]"> Wajahat Ali </a>. All Rights Reserved.
+  </p>
         <div className="flex gap-4 mt-4 md:mt-0">
           {[FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterest].map((Icon, idx) => (
             <div
