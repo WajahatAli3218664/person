@@ -21,11 +21,12 @@ const MainBreadcum: React.FC<MainBreadcumProps> = ({ name, pageName }) => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
+        borderBottom: '2px solid #f1f1f1', // Add border below navbar
       }}
     >
       <Box>
         <Image
-          src='/assets/banner.png'
+          src="/assets/banner.png"
           alt="Banner Background"
           layout="fill"
           objectFit="cover"
@@ -96,3 +97,4 @@ const MainBreadcum: React.FC<MainBreadcumProps> = ({ name, pageName }) => {
 };
 
 export default MainBreadcum;
+        
