@@ -50,6 +50,9 @@ export default function Header() {
             <Link href="/about" className="text-[16px] leading-6 hover:text-[#FF9F0D] transition-colors">About</Link>
           </li>
           <li>
+            <Link href="/blog" className="text-[16px] leading-6 hover:text-[#FF9F0D] transition-colors">Blog</Link>
+          </li>
+          <li>
             <Link href="/signin" className="text-[16px] leading-6 hover:text-[#FF9F0D] transition-colors">Contact</Link>
           </li>
         </ul>
@@ -125,6 +128,15 @@ export default function Header() {
           </li>
           <li>
             <Link
+              href="/blog"
+              className="text-[16px] leading-6 hover:text-[#FF9F0D] transition-colors"
+              onClick={() => setIsDrawerOpen(false)}
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/signin"
               className="text-[16px] leading-6 hover:text-[#FF9F0D] transition-colors"
               onClick={() => setIsDrawerOpen(false)}
@@ -144,4 +156,5 @@ export default function Header() {
       )}
     </header>
   );
-}
+          }
+            
